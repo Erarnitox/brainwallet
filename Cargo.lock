@@ -172,7 +172,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "btcpass"
+name = "brainwallet"
 version = "0.1.0"
 dependencies = [
  "bitcoin",
