@@ -10,6 +10,7 @@ use bitcoin::{
 };
 use clap::Parser;
 
+// Command line arguments:
 #[derive(Parser, Debug)]
 #[command(version, about, long_about = None)]
 struct Args {
@@ -39,7 +40,6 @@ fn btc_address(priv_key: &str) -> Address {
     let public_key = PublicKey::from_private_key(&secp, &private_key);
     Address::p2pkh(&public_key, Network::Bitcoin)
 }
-
 fn main() {
     let args = Args::parse();
 
