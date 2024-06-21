@@ -1,6 +1,8 @@
 # Brain-Wallet
 Dead simple and minimalistic bitcoin brain wallet written in Rust.
 
+[![Build and Release](https://github.com/Erarnitox/brainwallet/actions/workflows/rust.yml/badge.svg)](https://github.com/Erarnitox/brainwallet/actions/workflows/rust.yml)
+
 ## Usage:
 ```
 Usage: brainwallet --password <PASSWORD>
